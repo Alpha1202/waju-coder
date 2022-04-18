@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.numberListWrapper {
+  display: flex;
+
+  width: 12rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.uncheckedItem {
+  text-decoration: none;
+}
+
+.checkedItem {
+  text-decoration: line-through;
+  color: grey;
+}
